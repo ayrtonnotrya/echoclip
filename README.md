@@ -1,6 +1,6 @@
 # EchoClip
 
-EchoClip é uma aplicação "cloud-native" de Text-to-Speech (TTS) para área de transferência, utilizando a API do Google Gemini 2.5 Flash.
+EchoClip é uma aplicação "cloud-native" de Text-to-Speech (TTS) para área de transferência, utilizando a API do Google Gemini 2.5 Flash Preview TTS.
 
 ## Funcionalidades
 
