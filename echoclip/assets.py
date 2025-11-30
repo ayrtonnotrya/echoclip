@@ -1,6 +1,6 @@
 from pathlib import Path
-from src.client import tts_client
-from src.logger import logger
+from echoclip.client import tts_client
+from echoclip.logger import logger
 
 ASSETS_DIR = Path.home() / ".local/share/echoclip/assets"
 

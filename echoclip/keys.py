@@ -4,8 +4,8 @@ import threading
 import random
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from src.config import config
-from src.logger import logger
+from echoclip.config import config
+from echoclip.logger import logger
 
 class KeyManager:
     def __init__(self, state_file: Path = Path.home() / ".local/share/echoclip/key_state.json"):

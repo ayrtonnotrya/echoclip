@@ -1,7 +1,7 @@
 import sounddevice as sd
 import numpy as np
 import threading
-from src.logger import logger
+from echoclip.logger import logger
 
 class AudioPlayer:
     def __init__(self):

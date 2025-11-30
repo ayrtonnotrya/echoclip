@@ -1,8 +1,8 @@
 from google import genai
 from google.genai import types
-from src.config import config
-from src.keys import key_manager
-from src.logger import logger
+from echoclip.config import config
+from echoclip.keys import key_manager
+from echoclip.logger import logger
 import time
 
 class TTSClient:

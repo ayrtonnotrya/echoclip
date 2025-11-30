@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess
-from src.logger import logger
+from echoclip.logger import logger
 
 SERVICE_DIR = Path.home() / ".config/systemd/user"
 SERVICE_FILE = SERVICE_DIR / "echoclip.service"

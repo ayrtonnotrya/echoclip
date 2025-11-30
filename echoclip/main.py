@@ -1,11 +1,11 @@
 import typer
 from rich.console import Console
 from rich.prompt import Prompt
-from src.config import config
-from src.service import install_service, start_service
-from src.assets import generate_system_sounds
-from src.input_handler import input_listener
-from src.logger import logger
+from echoclip.config import config
+from echoclip.service import install_service, start_service
+from echoclip.assets import generate_system_sounds
+from echoclip.input_handler import input_listener
+from echoclip.logger import logger
 
 app = typer.Typer()
 console = Console()

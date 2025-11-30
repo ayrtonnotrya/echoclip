@@ -2,11 +2,11 @@ import time
 import threading
 import pyperclip
 from pynput import keyboard
-from src.config import config
-from src.client import tts_client
-from src.audio import audio_player
-from src.assets import get_asset_path
-from src.logger import logger
+from echoclip.config import config
+from echoclip.client import tts_client
+from echoclip.audio import audio_player
+from echoclip.assets import get_asset_path
+from echoclip.logger import logger
 
 class InputListener:
     def __init__(self):
