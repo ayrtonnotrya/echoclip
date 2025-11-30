@@ -26,7 +26,7 @@ A maneira recomendada de usar o EchoClip é através do `pipx`, que instala a fe
 
 1.  **Instale o EchoClip:**
     ```bash
-    pipx install git+https://github.com/ayrtondouglas/echoclip.git
+    pipx install git+https://github.com/ayrtonnotrya/echoclip.git
     ```
 
 2.  **Configuração Inicial:**
@@ -48,7 +48,7 @@ Se você quer contribuir com o código ou modificar o projeto:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/ayrtondouglas/echoclip.git
+    git clone https://github.com/ayrtonnotrya/echoclip.git
     cd echoclip
     ```
 
