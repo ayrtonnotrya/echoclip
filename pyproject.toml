@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "echoclip"
+version = "0.1.0"
+description = "Cloud-native clipboard TTS application using Gemini 2.5 Flash"
+authors = ["Ayrton Douglas <ayrtondouglas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-genai = "^0.2.1"
+pynput = "^1.7.6"
+pyperclip = "^1.8.2"
+sounddevice = "^0.4.6"
+numpy = "^1.26.0"
+toml = "^0.10.2"
+rich = "^13.7.0"
+typer = "^0.9.0"
+
+[tool.poetry.scripts]
+echoclip = "main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

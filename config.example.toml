@@ -1,0 +1,15 @@
+# EchoClip Configuration
+
+[gemini]
+# List of API keys for rotation
+api_keys = []
+model_name = "gemini-2.5-flash-preview-tts"
+voice_id = "Enceladus"
+
+[audio]
+speed = 1.0
+volume = 1.0
+
+[system]
+# Hotkey to trigger TTS (e.g., "F7", "<ctrl>+<alt>+s")
+hotkey = "<f7>"
