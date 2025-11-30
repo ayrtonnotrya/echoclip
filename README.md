@@ -4,7 +4,7 @@ EchoClip é uma aplicação "cloud-native" de Text-to-Speech (TTS) para área de
 
 ## Funcionalidades
 
-- **Clipboard TTS**: Lê automaticamente o texto copiado para a área de transferência ao pressionar uma tecla de atalho.
+- **Clipboard TTS**: Lê automaticamente o texto copiado para a área de transferência ao pressionar a tecla de atalho **`Ctrl+F7`**.
 - **Key Rotation**: Gerencia múltiplas chaves de API para contornar limites de taxa (Rate Limits).
 - **Áudio Premium**: Utiliza as vozes de alta qualidade do Gemini (padrão: Enceladus).
 - **Systemd Service**: Pode rodar em segundo plano como um serviço do sistema.
@@ -37,7 +37,7 @@ A maneira recomendada de usar o EchoClip é através do `pipx`, que instala a fe
     *Responda `y` quando perguntado sobre o "systemd user service" para que o EchoClip inicie com o sistema.*
 
 3.  **Usando:**
-    - Se você instalou o serviço, ele já está rodando! Basta copiar um texto e pressionar **`F7`**.
+    - Se você instalou o serviço, ele já está rodando! Basta copiar um texto e pressionar **`Ctrl+F7`**.
     - Se preferir rodar manualmente: `echoclip start`
 
 ---
@@ -70,4 +70,4 @@ Você pode editá-lo para mudar a voz, atalhos ou velocidade do áudio.
 
 Exemplo de opções:
 - `voice_id`: "Enceladus" (padrão), "Puck", "Charon", "Kore", "Fenrir".
-- `hotkey`: `<f7>`, `<ctrl>+<alt>+s`.
+- **Atalho**: `hotkey` (ex: `<ctrl>+<f7>`, `<alt>+s`).

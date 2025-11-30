@@ -18,7 +18,7 @@ DEFAULT_CONFIG = {
         "volume": 1.0
     },
     "system": {
-        "hotkey": "<f7>"
+        "hotkey": "<ctrl>+<f7>"
     },
     "rate_limits": {
         "rpm": 10,

@@ -12,4 +12,4 @@ volume = 1.0
 
 [system]
 # Hotkey to trigger TTS (e.g., "F7", "<ctrl>+<alt>+s")
-hotkey = "<f7>"
+hotkey = "<ctrl>+<f7>"
